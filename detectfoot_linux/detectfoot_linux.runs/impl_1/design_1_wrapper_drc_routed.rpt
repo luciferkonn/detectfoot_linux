@@ -1,0 +1,247 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (win64) Build 1215546 Mon Apr 27 19:22:08 MDT 2015
+| Date         : Thu Mar 31 09:58:38 2016
+| Host         : lucifer-PC running 64-bit major release  (build 9200)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 44
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP input C is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input A C is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input A C is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP input C is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input A is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input A C is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#2 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#3 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#4 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#5 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#6 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#7 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#8 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#9 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#10 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#11 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#12 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#13 Warning
+Output pipelining  
+DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+PLIO-7#1 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are:  FIXED_IO_mio[53] of IOStandard LVCMOS18; FIXED_IO_mio[52] of IOStandard LVCMOS18; FIXED_IO_mio[51] of IOStandard LVCMOS18; FIXED_IO_mio[50] of IOStandard LVCMOS18; FIXED_IO_mio[49] of IOStandard LVCMOS18; FIXED_IO_mio[48] of IOStandard LVCMOS18; FIXED_IO_mio[47] of IOStandard LVCMOS18; FIXED_IO_mio[46] of IOStandard LVCMOS18; FIXED_IO_mio[45] of IOStandard LVCMOS18; FIXED_IO_mio[44] of IOStandard LVCMOS18; FIXED_IO_mio[43] of IOStandard LVCMOS18; FIXED_IO_mio[42] of IOStandard LVCMOS18; FIXED_IO_mio[41] of IOStandard LVCMOS18; FIXED_IO_mio[40] of IOStandard LVCMOS18; FIXED_IO_mio[39] of IOStandard LVCMOS18; FIXED_IO_mio[38] of IOStandard LVCMOS18; FIXED_IO_mio[37] of IOStandard LVCMOS18; FIXED_IO_mio[36] of IOStandard LVCMOS18; FIXED_IO_mio[35] of IOStandard LVCMOS18; FIXED_IO_mio[34] of IOStandard LVCMOS18; FIXED_IO_mio[33] of IOStandard LVCMOS18; FIXED_IO_mio[32] of IOStandard LVCMOS18; FIXED_IO_mio[31] of IOStandard LVCMOS18; FIXED_IO_mio[30] of IOStandard LVCMOS18; FIXED_IO_mio[29] of IOStandard LVCMOS18; FIXED_IO_mio[28] of IOStandard LVCMOS18; FIXED_IO_mio[27] of IOStandard HSTL_I_18; FIXED_IO_mio[26] of IOStandard HSTL_I_18; FIXED_IO_mio[25] of IOStandard HSTL_I_18; FIXED_IO_mio[24] of IOStandard HSTL_I_18; FIXED_IO_mio[23] of IOStandard HSTL_I_18; FIXED_IO_mio[22] of IOStandard HSTL_I_18; FIXED_IO_mio[21] of IOStandard HSTL_I_18; FIXED_IO_mio[20] of IOStandard HSTL_I_18; FIXED_IO_mio[19] of IOStandard HSTL_I_18; FIXED_IO_mio[18] of IOStandard HSTL_I_18; FIXED_IO_mio[17] of IOStandard HSTL_I_18; FIXED_IO_mio[16] of IOStandard HSTL_I_18; FIXED_IO_mio[15] of IOStandard LVCMOS18; FIXED_IO_mio[14] of IOStandard LVCMOS18; FIXED_IO_mio[13] of IOStandard LVCMOS18; FIXED_IO_mio[12] of IOStandard LVCMOS18; FIXED_IO_mio[11] of IOStandard LVCMOS18; FIXED_IO_mio[10] of IOStandard LVCMOS18; FIXED_IO_mio[9] of IOStandard LVCMOS18; FIXED_IO_mio[8] of IOStandard LVCMOS18; FIXED_IO_mio[7] of IOStandard LVCMOS18; FIXED_IO_mio[6] of IOStandard LVCMOS18; FIXED_IO_mio[5] of IOStandard LVCMOS18; FIXED_IO_mio[4] of IOStandard LVCMOS18; FIXED_IO_mio[3] of IOStandard LVCMOS18; FIXED_IO_mio[2] of IOStandard LVCMOS18; FIXED_IO_mio[1] of IOStandard LVCMOS18; FIXED_IO_mio[0] of IOStandard LVCMOS18;
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+1 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_dma/U0/INCLUDE_S2MM_SOF_EOF_GENERATOR.I_S2MM_DMA_MNGR/s2mm_cmnd_data[31].
+Related violations: <none>
+
+AVAL-4#1 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#2 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#3 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#4 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#5 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#6 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#7 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#8 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#9 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#10 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#11 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#12 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-4#13 Advisory
+enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#1 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#2 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-5#3 Advisory
+enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+

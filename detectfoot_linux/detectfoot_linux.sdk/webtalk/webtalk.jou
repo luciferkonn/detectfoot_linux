@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:37:43 MDT 2015
+# 
+# Start of session at: Thu Apr 07 09:33:17 2016
+# Process ID: 31472
+# Log file: F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.sdk/webtalk/webtalk.log
+# Journal file: F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,13 @@
+09:02:02 **** Auto Build of configuration Debug for project detectfoot ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM Linux gcc compiler'
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:22:24: fatal error: linux/init.h: No such file or directory
+ #include <linux/init.h>
+                        ^
+compilation terminated.
+make: *** [src/helloworld.o] ´íÎó 1
+
+09:02:03 Build Finished (took 733ms)
+

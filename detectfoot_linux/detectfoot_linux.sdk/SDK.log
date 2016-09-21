@@ -1,0 +1,15 @@
+10:00:21 INFO  : Processing command line option -hwspec F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.sdk/design_1_wrapper.hdf.
+10:00:28 INFO  : Launching XSDB server: xsdb.bat -s e:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:00:48 INFO  : XSDB server has started successfully.
+10:12:01 INFO  : Processing command line option -hwspec F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.sdk/design_1_wrapper.hdf.
+10:12:03 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:12:03 INFO  : Launching XSDB server: xsdb.bat -s e:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:12:24 INFO  : XSDB server has started successfully.
+09:15:18 INFO  : Processing command line option -hwspec F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.sdk/design_1_wrapper.hdf.
+09:15:20 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:15:21 INFO  : Launching XSDB server: xsdb.bat -s e:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:15:42 INFO  : XSDB server has started successfully.
+09:00:08 INFO  : Processing command line option -hwspec F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.sdk/design_1_wrapper.hdf.
+09:00:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:00:09 INFO  : Launching XSDB server: xsdb.bat -s e:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+09:00:28 INFO  : XSDB server has started successfully.

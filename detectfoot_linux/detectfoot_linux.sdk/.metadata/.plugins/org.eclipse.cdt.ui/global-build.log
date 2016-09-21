@@ -1,0 +1,74 @@
+10:01:39 **** Build of configuration Debug for project detectfoot ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM Linux gcc compiler'
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: detectfoot.elf'
+'Invoking: ARM Linux gcc linker'
+arm-xilinx-linux-gnueabi-gcc  -o "detectfoot.elf"  ./src/helloworld.o   
+'Finished building target: detectfoot.elf'
+' '
+'Invoking: ARM Linux Print Size'
+arm-xilinx-linux-gnueabi-size detectfoot.elf  |tee "detectfoot.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1226	    292	      4	   1522	    5f2	detectfoot.elf
+'Finished building: detectfoot.elf.size'
+' '
+10:02:01 **** Auto Build of configuration Debug for project detectfoot ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM Linux gcc compiler'
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:28:29: fatal error: linux/dmaengine.h: No such file or directory
+ #include <linux/dmaengine.h>
+                             ^
+compilation terminated.
+make: *** [src/helloworld.o] ´íÎó 1
+09:28:41 **** Build of configuration Debug for project detectfoot ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM Linux gcc compiler'
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: detectfoot.elf'
+'Invoking: ARM Linux gcc linker'
+arm-xilinx-linux-gnueabi-gcc  -o "detectfoot.elf"  ./src/helloworld.o   
+'Finished building target: detectfoot.elf'
+' '
+'Invoking: ARM Linux Print Size'
+arm-xilinx-linux-gnueabi-size detectfoot.elf  |tee "detectfoot.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1226	    292	      4	   1522	    5f2	detectfoot.elf
+'Finished building: detectfoot.elf.size'
+' '
+09:01:08 **** Build of configuration Debug for project detectfoot ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM Linux gcc compiler'
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: detectfoot.elf'
+'Invoking: ARM Linux gcc linker'
+arm-xilinx-linux-gnueabi-gcc  -o "detectfoot.elf"  ./src/helloworld.o   
+'Finished building target: detectfoot.elf'
+' '
+'Invoking: ARM Linux Print Size'
+arm-xilinx-linux-gnueabi-size detectfoot.elf  |tee "detectfoot.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1226	    292	      4	   1522	    5f2	detectfoot.elf
+'Finished building: detectfoot.elf.size'
+' '
+09:02:02 **** Auto Build of configuration Debug for project detectfoot ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM Linux gcc compiler'
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:22:24: fatal error: linux/init.h: No such file or directory
+ #include <linux/init.h>
+                        ^
+compilation terminated.
+make: *** [src/helloworld.o] ´íÎó 1

@@ -1,0 +1,638 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+
+INFO: [Common 17-701] A license check has taken more than 10 seconds to complete. This may indicate that there is a performance issue with one or more license servers listed in XILINXD_LICENSE_FILE or LM_LICENSE_FILE, or that the license servers are just not responding at all. Try setting the FLEXLM_DIAGNOSTICS environment variable to 3 and running Vivado again to get more information.
+
+****** Vivado v2015.1 (64-bit)
+  **** SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+  **** IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 512 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0/design_1_axi_dma_0.xdc] for cell 'design_1_i/axi_dma/U0'
+Finished Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0/design_1_axi_dma_0.xdc] for cell 'design_1_i/axi_dma/U0'
+Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Finished Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/design_1_rst_processing_system7_0_100M_0.xdc] for cell 'design_1_i/rst_processing_system7_0_100M'
+Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0/design_1_axi_dma_0_clocks.xdc] for cell 'design_1_i/axi_dma/U0'
+Finished Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0/design_1_axi_dma_0_clocks.xdc] for cell 'design_1_i/axi_dma/U0'
+Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [f:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 38 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 546.113 ; gain = 283.477
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.332 . Memory (MB): peak = 608.246 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 4 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 217095159
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.884 . Memory (MB): peak = 1037.348 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 265 cells.
+Phase 2 Constant Propagation | Checksum: 1bc0bece5
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1037.348 ; gain = 0.000
+
+Phase 3 Sweep
+WARNING: [Opt 31-6] Deleting driverless net: design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/ZERO_14_DET.ZERO_DET/CARRYS_OUT[0].
+WARNING: [Opt 31-6] Deleting driverless net: design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/ZERO_14_DET.ZERO_DET/CARRY_OUT.
+INFO: [Opt 31-12] Eliminated 2844 unconnected nets.
+INFO: [Opt 31-11] Eliminated 569 unconnected cells.
+Phase 3 Sweep | Checksum: 184226730
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1037.348 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1037.348 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 184226730
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1037.348 ; gain = 0.000
+Implement Debug Cores | Checksum: 15d924222
+Logic Optimization | Checksum: 15d924222
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 5 BRAM(s) out of a total of 9 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 6 newly gated: 0 Total Ports: 18
+Ending PowerOpt Patch Enables Task | Checksum: fe9bb9bc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Ending Power Optimization Task | Checksum: fe9bb9bc
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1131.910 ; gain = 94.563
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:33 . Memory (MB): peak = 1131.910 ; gain = 585.797
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1131.910 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 51dc03ff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.200 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 1131.910 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 6 inverter(s) to 10 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: 4589089f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.900 . Memory (MB): peak = 1131.910 ; gain = 0.000
+WARNING: [Place 30-12] An IO Bus FIXED_IO_mio with more than one IO standard is found. Components associated with this bus are: 
+	FIXED_IO_mio[53] of IOStandard LVCMOS18
+	FIXED_IO_mio[52] of IOStandard LVCMOS18
+	FIXED_IO_mio[51] of IOStandard LVCMOS18
+	FIXED_IO_mio[50] of IOStandard LVCMOS18
+	FIXED_IO_mio[49] of IOStandard LVCMOS18
+	FIXED_IO_mio[48] of IOStandard LVCMOS18
+	FIXED_IO_mio[47] of IOStandard LVCMOS18
+	FIXED_IO_mio[46] of IOStandard LVCMOS18
+	FIXED_IO_mio[45] of IOStandard LVCMOS18
+	FIXED_IO_mio[44] of IOStandard LVCMOS18
+	FIXED_IO_mio[43] of IOStandard LVCMOS18
+	FIXED_IO_mio[42] of IOStandard LVCMOS18
+	FIXED_IO_mio[41] of IOStandard LVCMOS18
+	FIXED_IO_mio[40] of IOStandard LVCMOS18
+	FIXED_IO_mio[39] of IOStandard LVCMOS18
+	FIXED_IO_mio[38] of IOStandard LVCMOS18
+	FIXED_IO_mio[37] of IOStandard LVCMOS18
+	FIXED_IO_mio[36] of IOStandard LVCMOS18
+	FIXED_IO_mio[35] of IOStandard LVCMOS18
+	FIXED_IO_mio[34] of IOStandard LVCMOS18
+	FIXED_IO_mio[33] of IOStandard LVCMOS18
+	FIXED_IO_mio[32] of IOStandard LVCMOS18
+	FIXED_IO_mio[31] of IOStandard LVCMOS18
+	FIXED_IO_mio[30] of IOStandard LVCMOS18
+	FIXED_IO_mio[29] of IOStandard LVCMOS18
+	FIXED_IO_mio[28] of IOStandard LVCMOS18
+	FIXED_IO_mio[27] of IOStandard HSTL_I_18
+	FIXED_IO_mio[26] of IOStandard HSTL_I_18
+	FIXED_IO_mio[25] of IOStandard HSTL_I_18
+	FIXED_IO_mio[24] of IOStandard HSTL_I_18
+	FIXED_IO_mio[23] of IOStandard HSTL_I_18
+	FIXED_IO_mio[22] of IOStandard HSTL_I_18
+	FIXED_IO_mio[21] of IOStandard HSTL_I_18
+	FIXED_IO_mio[20] of IOStandard HSTL_I_18
+	FIXED_IO_mio[19] of IOStandard HSTL_I_18
+	FIXED_IO_mio[18] of IOStandard HSTL_I_18
+	FIXED_IO_mio[17] of IOStandard HSTL_I_18
+	FIXED_IO_mio[16] of IOStandard HSTL_I_18
+	FIXED_IO_mio[15] of IOStandard LVCMOS18
+	FIXED_IO_mio[14] of IOStandard LVCMOS18
+	FIXED_IO_mio[13] of IOStandard LVCMOS18
+	FIXED_IO_mio[12] of IOStandard LVCMOS18
+	FIXED_IO_mio[11] of IOStandard LVCMOS18
+	FIXED_IO_mio[10] of IOStandard LVCMOS18
+	FIXED_IO_mio[9] of IOStandard LVCMOS18
+	FIXED_IO_mio[8] of IOStandard LVCMOS18
+	FIXED_IO_mio[7] of IOStandard LVCMOS18
+	FIXED_IO_mio[6] of IOStandard LVCMOS18
+	FIXED_IO_mio[5] of IOStandard LVCMOS18
+	FIXED_IO_mio[4] of IOStandard LVCMOS18
+	FIXED_IO_mio[3] of IOStandard LVCMOS18
+	FIXED_IO_mio[2] of IOStandard LVCMOS18
+	FIXED_IO_mio[1] of IOStandard LVCMOS18
+	FIXED_IO_mio[0] of IOStandard LVCMOS18
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.2 IO & Clk Clean Up
+Phase 2.1.2 IO & Clk Clean Up | Checksum: 4589089f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 2.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.3 Implementation Feasibility check On IDelay | Checksum: 4589089f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 2.1.4 Commit IO Placement
+Phase 2.1.4 Commit IO Placement | Checksum: da62e959
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1b77673b6
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 2.2 Build Placer Netlist Model
+
+Phase 2.2.1 Place Init Design
+
+Phase 2.2.1.1 Init Lut Pin Assignment
+Phase 2.2.1.1 Init Lut Pin Assignment | Checksum: 1cb15ab1f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 2.2.1 Place Init Design | Checksum: 16c716ba1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 2.2 Build Placer Netlist Model | Checksum: 16c716ba1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 2.3 Constrain Clocks/Macros
+
+Phase 2.3.1 Constrain Global/Regional Clocks
+Phase 2.3.1 Constrain Global/Regional Clocks | Checksum: 16c716ba1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 2.3 Constrain Clocks/Macros | Checksum: 16c716ba1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 2 Placer Initialization | Checksum: 16c716ba1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 15d1283bb
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 15d1283bb
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 644d791a
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 99e55988
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.4 updateClock Trees: DP
+Phase 4.4 updateClock Trees: DP | Checksum: 99e55988
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.5 Timing Path Optimizer
+Phase 4.5 Timing Path Optimizer | Checksum: 8eb3ed9b
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.6 Small Shape Detail Placement
+
+Phase 4.6.1 Commit Small Macros & Core Logic
+
+Phase 4.6.1.1 setBudgets
+Phase 4.6.1.1 setBudgets | Checksum: 100b56759
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.6.1.2 Commit Slice Clusters
+Phase 4.6.1.2 Commit Slice Clusters | Checksum: 17182efdb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 4.6.1 Commit Small Macros & Core Logic | Checksum: 17182efdb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns | Checksum: 17182efdb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 17182efdb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 4.6 Small Shape Detail Placement | Checksum: 17182efdb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 4.7 Re-assign LUT pins
+Phase 4.7 Re-assign LUT pins | Checksum: 17182efdb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 4 Detail Placement | Checksum: 17182efdb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 145d62804
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 5.2 Post Commit Optimization
+
+Phase 5.2.1 updateClock Trees: PCOPT
+Phase 5.2.1 updateClock Trees: PCOPT | Checksum: 145d62804
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 5.2.2 Post Placement Optimization
+
+Phase 5.2.2.1 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.943. For the most accurate timing information please run report_timing.
+Phase 5.2.2.1 Post Placement Timing Optimization | Checksum: 14be08248
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 5.2.2 Post Placement Optimization | Checksum: 14be08248
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 5.2 Post Commit Optimization | Checksum: 14be08248
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 5.3 Sweep Clock Roots: Post-Placement
+Phase 5.3 Sweep Clock Roots: Post-Placement | Checksum: 14be08248
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 5.4 Post Placement Cleanup
+Phase 5.4 Post Placement Cleanup | Checksum: 14be08248
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 5.5 Placer Reporting
+
+Phase 5.5.1 Restore STA
+Phase 5.5.1 Restore STA | Checksum: 14be08248
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 5.5 Placer Reporting | Checksum: 14be08248
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+
+Phase 5.6 Final Placement Cleanup
+Phase 5.6 Final Placement Cleanup | Checksum: 2217c53cf
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 2217c53cf
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Ending Placer Task | Checksum: 17d978ed6
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1131.910 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1131.910 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1131.910 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.185 . Memory (MB): peak = 1131.910 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1131.910 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are:  FIXED_IO_mio[53] of IOStandard LVCMOS18; FIXED_IO_mio[52] of IOStandard LVCMOS18; FIXED_IO_mio[51] of IOStandard LVCMOS18; FIXED_IO_mio[50] of IOStandard LVCMOS18; FIXED_IO_mio[49] of IOStandard LVCMOS18; FIXED_IO_mio[48] of IOStandard LVCMOS18; FIXED_IO_mio[47] of IOStandard LVCMOS18; FIXED_IO_mio[46] of IOStandard LVCMOS18; FIXED_IO_mio[45] of IOStandard LVCMOS18; FIXED_IO_mio[44] of IOStandard LVCMOS18; FIXED_IO_mio[43] of IOStandard LVCMOS18; FIXED_IO_mio[42] of IOStandard LVCMOS18; FIXED_IO_mio[41] of IOStandard LVCMOS18; FIXED_IO_mio[40] of IOStandard LVCMOS18; FIXED_IO_mio[39] of IOStandard LVCMOS18; FIXED_IO_mio[38] of IOStandard LVCMOS18; FIXED_IO_mio[37] of IOStandard LVCMOS18; FIXED_IO_mio[36] of IOStandard LVCMOS18; FIXED_IO_mio[35] of IOStandard LVCMOS18; FIXED_IO_mio[34] of IOStandard LVCMOS18; FIXED_IO_mio[33] of IOStandard LVCMOS18; FIXED_IO_mio[32] of IOStandard LVCMOS18; FIXED_IO_mio[31] of IOStandard LVCMOS18; FIXED_IO_mio[30] of IOStandard LVCMOS18; FIXED_IO_mio[29] of IOStandard LVCMOS18; FIXED_IO_mio[28] of IOStandard LVCMOS18; FIXED_IO_mio[27] of IOStandard HSTL_I_18; FIXED_IO_mio[26] of IOStandard HSTL_I_18; FIXED_IO_mio[25] of IOStandard HSTL_I_18; FIXED_IO_mio[24] of IOStandard HSTL_I_18; FIXED_IO_mio[23] of IOStandard HSTL_I_18; FIXED_IO_mio[22] of IOStandard HSTL_I_18; FIXED_IO_mio[21] of IOStandard HSTL_I_18; FIXED_IO_mio[20] of IOStandard HSTL_I_18; FIXED_IO_mio[19] of IOStandard HSTL_I_18; FIXED_IO_mio[18] of IOStandard HSTL_I_18; FIXED_IO_mio[17] of IOStandard HSTL_I_18; FIXED_IO_mio[16] of IOStandard HSTL_I_18; FIXED_IO_mio[15] of IOStandard LVCMOS18; FIXED_IO_mio[14] of IOStandard LVCMOS18; FIXED_IO_mio[13] of IOStandard LVCMOS18; FIXED_IO_mio[12] of IOStandard LVCMOS18; FIXED_IO_mio[11] of IOStandard LVCMOS18; FIXED_IO_mio[10] of IOStandard LVCMOS18; FIXED_IO_mio[9] of IOStandard LVCMOS18; FIXED_IO_mio[8] of IOStandard LVCMOS18; FIXED_IO_mio[7] of IOStandard LVCMOS18; FIXED_IO_mio[6] of IOStandard LVCMOS18; FIXED_IO_mio[5] of IOStandard LVCMOS18; FIXED_IO_mio[4] of IOStandard LVCMOS18; FIXED_IO_mio[3] of IOStandard LVCMOS18; FIXED_IO_mio[2] of IOStandard LVCMOS18; FIXED_IO_mio[1] of IOStandard LVCMOS18; FIXED_IO_mio[0] of IOStandard LVCMOS18;
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 185b82bc6
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:25 . Memory (MB): peak = 1187.625 ; gain = 55.715
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 185b82bc6
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 1187.891 ; gain = 55.980
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 185b82bc6
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1196.551 ; gain = 64.641
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 10e475c46
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:28 . Memory (MB): peak = 1222.996 ; gain = 91.086
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.246  | TNS=0.000  | WHS=-0.356 | THS=-139.148|
+
+Phase 2 Router Initialization | Checksum: 10e27fee7
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:29 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 123185af1
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:30 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1054
+ Number of Nodes with overlaps = 147
+ Number of Nodes with overlaps = 31
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+INFO: [Route 35-325] The following overlapped node exist in the design and there is low overall congestion. 
+1. INT_L_X24Y9/IMUX_L2
+Overlapping nets: 2
+	design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fcmp_32ns_32ns_1_1_U18/DetectorNewStep_ap_fcmp_0_no_dsp_32_u/grp_fu_266_p0[1]
+	design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fcmp_32ns_32ns_1_1_U18/DetectorNewStep_ap_fcmp_0_no_dsp_32_u/grp_fu_266_p0[2]
+
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: e9e99b55
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:35 . Memory (MB): peak = 1262.250 ; gain = 130.340
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.518  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 19d4cd49a
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:35 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: dcd9e442
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 1262.250 ; gain = 130.340
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.507  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: dcd9e442
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 1262.250 ; gain = 130.340
+Phase 4 Rip-up And Reroute | Checksum: dcd9e442
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: b7a34582
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.507  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: b7a34582
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: b7a34582
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+Phase 5 Delay and Skew Optimization | Checksum: b7a34582
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 11d39d70f
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.507  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 143d3bf58
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.72393 %
+  Global Horizontal Routing Utilization  = 2.11477 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 13f94aba6
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 13f94aba6
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:37 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 17fdabba4
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:38 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.507  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 17fdabba4
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:38 . Memory (MB): peak = 1262.250 ; gain = 130.340
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:38 . Memory (MB): peak = 1262.250 ; gain = 130.340
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:50 ; elapsed = 00:01:04 . Memory (MB): peak = 1262.250 ; gain = 130.340
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1262.250 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file F:/workspace_Vivado2015.1/detectfoot_linux/detectfoot_linux.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input A C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input A B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input A C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input A B C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP input C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input A is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input B is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input A C is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) Output pipelining - DSP design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 1 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_dma/U0/INCLUDE_S2MM_SOF_EOF_GENERATOR.I_S2MM_DMA_MNGR/s2mm_cmnd_data[31].
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_faddfsub_32ns_32ns_32_5_full_dsp_U15/DetectorNewStep_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fadd_32ns_32ns_32_5_full_dsp_U6/DetectorNewStep_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/SHIFT_RND/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U16/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U17/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_1_i/DetectorNewStep_0/inst/grp_DetectorNewStep_Peak_Valley_Thread_fu_218/DetectorNewStep_fmul_32ns_32ns_32_4_max_dsp_U7/DetectorNewStep_ap_fmul_2_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 27 Warnings, 16 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_1_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:29 ; elapsed = 00:01:03 . Memory (MB): peak = 1589.613 ; gain = 327.363
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 31 09:59:47 2016...
